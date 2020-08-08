@@ -42,7 +42,7 @@ public class Location extends AppCompatActivity {
     nextButton2.setOnClickListener(new View.OnClickListener(){
         @Override
         public void onClick(View view){
-            Intent intent = new Intent(Location.this, Location.class);
+            Intent intent = new Intent(Location.this, Camera.class);
             startActivity(intent);
         }
     });
