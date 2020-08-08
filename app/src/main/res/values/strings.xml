@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Digital Print 1</string>
+    <string name="Yac">Yac:</string>
+    <string name="Excavador">Excavador</string>
+    <string name="Identificación">Identificación</string>
+    <string name="Digital_Print">Digital Print</string>
+    <string name="Fecha">6 Agosto 2020 10:20</string>
+    <string name="Notas">Notas</string>
+    <string name="Bienvenido">Bienvenido</string>
+    <string name="Date">Date</string>
+    <string name="Ahora">Ahora</string>
+    <string name="Cuadro">Cuadro</string>
+    <string name="NivelEstrato">NivelEstrato</string>
+    <string name="UUEE">UUEE</string>
+    <string name="X">X</string>
+    <string name="Y">Y</string>
+    <string name="Zs">Zs</string>
+    <string name="Zi">Zi</string>
+    <string name="RotX">RotX</string>
+    <string name="rotY">rotY</string>
+    <string name="rotZ">rotZ</string>
+    <string name="btnlink">btnlink</string>
+</resources>
