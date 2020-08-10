@@ -2,7 +2,9 @@ package com.example.digitalprint1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -29,6 +31,8 @@ public class Cuadro_Nivel extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cuadro_nivel);
+        Context context = this;
+        SharedPreferences sharpref= getSharedPreferences("ArchivoSP", context.MODE_PRIVATE);
 
         nextButton = (Button)findViewById(R.id.nextButton);
 
@@ -172,6 +176,8 @@ public class Cuadro_Nivel extends AppCompatActivity {
         nextButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
+
+
                 Intent intent = new Intent(Cuadro_Nivel.this, Location.class);
                 startActivity(intent);
             }
